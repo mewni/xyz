@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mewni Alahakoon | Phantom Terminal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="matrix-rain"></canvas>
+    <audio id="background-music" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+    <div class="audio-toggle">♪</div>
+
+    <nav class="navbar">
+        <div class="nav-brand">> MEWNI_ALAHAKOON</div>
+        <div class="nav-toggle">≡</div>
+        <ul class="nav-links">
+            <li><a href="#hero" class="holo-link">> Home</a></li>
+            <li><a href="#portfolio" class="holo-link">> Arsenal</a></li>
+            <li><a href="#publications" class="holo-link">> Intel</a></li>
+            <li><a href="#blog" class="holo-link">> Logs</a></li>
+            <li><a href="#contact" class="holo-link">> Uplink</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero" class="hero terminal-section">
+        <h1 class="code-text">> PHANTOM TERMINAL</h1>
+        <p class="subtitle">> Mewni Alahakoon: OmniNet breach initiated. Code is the key.</p>
+    </section>
+
+    <section id="portfolio" class="section terminal-section">
+        <h2 class="section-title">> ARSENAL</h2>
+        <p class="section-desc">> Tools deployed by Mewni to crack the system.</p>
+        <div class="portfolio-grid">
+            <div class="card cyber-card" data-tilt>
+                <h3>> Neon Scanner</h3>
+                <p>> Network infiltration tool | Rust</p>
+                <a href="https://github.com/phantom-scanner" target="_blank">> Access</a>
+            </div>
+            <div class="card cyber-card" data-tilt>
+                <h3>> Shadow Vault</h3>
+                <p>> Secure data crypt | Quantum-proof</p>
+                <a href="https://github.com/shadow-vault" target="_blank">> Access</a>
+            </div>
+            <div class="card cyber-card" data-tilt>
+                <h3>> Chaos Engine</h3>
+                <p>> Exploit generator | C++</p>
+                <a href="https://github.com/chaos-engine" target="_blank">> Access</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="section terminal-section">
+        <h2 class="section-title">> INTEL</h2>
+        <p class="section-desc">> Decrypted data from OmniNet’s core.</p>
+        <ul class="publication-list">
+            <li>> "The Firewall Fallacy" - BlackHat 2024</li>
+            <li>> "OmniNet Exposed" - ShadowCon 2023</li>
+            <li>> "Code Rebellion" - HackVerse 2022</li>
+        </ul>
+    </section>
+
+    <section id="blog" class="section terminal-section">
+        <h2 class="section-title">> LOGS</h2>
+        <p class="section-desc">> Mewni’s breach logs in real-time.</p>
+        <div class="blog-posts">
+            <div class="blog-card cyber-card" data-tilt>
+                <h3>> Infiltration 101</h3>
+                <p>> Feb 21, 2025</p>
+                <p>> First wall cracked</p>
+                <a href="blog-post.html#infiltration-101">> Read</a>
+            </div>
+            <div class="blog-card cyber-card" data-tilt>
+                <h3>> Core Breach</h3>
+                <p>> Jan 10, 2025</p>
+                <p>> Heart of the beast</p>
+                <a href="blog-post.html#core-breach">> Read</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section terminal-section">
+        <h2 class="section-title">> UPLINK</h2>
+        <p class="section-desc">> Connect with Mewni Alahakoon. Join the resistance.</p>
+        <div class="contact-container">
+            <p>> Drop: <a href="mailto:mewni@darkpool.net">mewni@darkpool.net</a></p>
+            <p>> Signal: <a href="tel:+1-555-0133">+1-555-0133</a></p>
+            <p>> Repo: <a href="https://github.com/mewni-alahakoon" target="_blank">github.com/mewni-alahakoon</a></p>
+        </div>
+    </section>
+
+    <footer class="terminal-section">
+        <p class="holo-link">> MEWNI_ALAHAKOON | 2025</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
